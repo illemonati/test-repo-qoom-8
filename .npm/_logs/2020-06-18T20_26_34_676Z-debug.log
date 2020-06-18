@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/app/.heroku/node/bin/node',
+1 verbose cli   '/app/.heroku/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'octokit-plugin-create-pull-reques'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose config Skipping project config: /app/.npmrc. (matches userconfig)
+5 verbose npm-session 33ecd2ec92d31ba2
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 404 https://registry.npmjs.org/octokit-plugin-create-pull-reques 554ms
+9 http fetch GET 404 https://registry.npmjs.org/octokit-plugin-create-pull-reques 395ms
+10 silly fetchPackageMetaData error for octokit-plugin-create-pull-reques@latest 404 Not Found - GET https://registry.npmjs.org/octokit-plugin-create-pull-reques - Not found
+11 timing stage:rollbackFailedOptional Completed in 1ms
+12 timing stage:runTopLevelLifecycles Completed in 3204ms
+13 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/octokit-plugin-create-pull-reques - Not found
+13 verbose stack     at /app/.heroku/node/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:104:15
+13 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+14 verbose statusCode 404
+15 verbose pkgid octokit-plugin-create-pull-reques@latest
+16 verbose cwd /app
+17 verbose Linux 4.4.0-1066-aws
+18 verbose argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "install" "octokit-plugin-create-pull-reques"
+19 verbose node v12.18.1
+20 verbose npm  v6.14.5
+21 error code E404
+22 error 404 Not Found - GET https://registry.npmjs.org/octokit-plugin-create-pull-reques - Not found
+23 error 404
+24 error 404 'octokit-plugin-create-pull-reques@latest' is not in the npm registry.
+25 error 404 You should bug the author to publish it (or use the name yourself!)
+26 error 404 Note that you can also install from a
+27 error 404 tarball, folder, http url, or git url.
+28 verbose exit [ 1, true ]
